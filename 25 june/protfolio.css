@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 20px;
+  padding: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+html {
+  scroll-behavior: smooth;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background-color: #333;
+  padding: 1rem;
+}
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  margin-left: 80px;
+}
+.logo a {
+  list-style: none;
+  color: white;
+  text-decoration: none;
+}
+.nav-item {
+  display: flex;
+  list-style: none;
+}
+.nav-item li {
+  padding: 8px;
+}
+.nav-item li a {
+  color: white;
+  text-decoration: none;
+  padding-right: 1.5rem;
+  font-size: 25px;
+}
+
+.nav-item li a:hover {
+  color: green;
+  font-size: 25px;
+  transition: 0.5s;
+}
+
+.hero {
+  width: auto;
+  height: 55rem;
+  text-align: center;
+  /* display: flex; */
+  margin-top: 20rem;
+}
+.hero h3 {
+  text-align: center;
+  padding: 10px;
+  color: blue;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.hero h1 {
+  font-size: 5.1rem;
+  font-weight: bolder;
+}
+.hero p {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.hero p span {
+  color: blueviolet;
+  font-size: 2.5rem;
+  padding-left: 5px;
+}
+.about {
+  height: 50rem;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(255, 228, 196, 0.349);
+  margin-top: 10px;
+}
+.about img {
+  height: 700px;
+  padding: 5rem;
+}
+.details {
+  padding: 10px;
+  padding-top: 5rem;
+  margin-right: 20rem;
+}
+.me {
+  padding-bottom: 2rem;
+}
+.me h2 {
+  font-size: 3.5rem;
+  font-weight: 1200;
+  padding-bottom: 1rem;
+}
+.me p {
+  font-weight: 00;
+  font-size: 1.5rem;
+}
+.details-info {
+  padding-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+.details-info p {
+  padding-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.form {
+  padding-bottom: 10px;
+}
+.details-info li {
+  background-color: rgba(240, 248, 255, 0.507);
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: 15px;
+}
+.form span {
+  font-weight: bold;
+}
+.btn {
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: rgba(0, 0, 255, 0.575);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 12px 25px;
+  border-radius: 8%;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: blueviolet;
+  transform: translateX(-2px);
+}
+.change {
+  color: blueviolet;
+}
